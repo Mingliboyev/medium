@@ -1,0 +1,46 @@
+html {
+    margin-top: 2rem;
+}
+.main-nav__left img{
+    height:20px
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav__left, .main-nav__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.main-nav__right {
+    width: 20rem;
+}
+.main-nav__left{
+    width: 25rem;
+}
+
+.write {
+    width: 5rem;
+}
+.write > * {
+    display: inline-block;
+}
+
+.main-section__left {
+    display: flex;
+    border-right: 1px solid #ccc;
+    min-width:16rem;
+}
+.main-section__middle{
+    display: flex;
+    min-width: 50rem;
+}
+.content-image img {
+    width:10rem
+}
+.content-card {
+    display: flex;
+}
