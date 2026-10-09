@@ -1,8 +1,25 @@
 html {
     margin-top: 2rem;
 }
-.main-nav__left img{
-    height:20px
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.main-nav__left img {
+    height: 20px;
 }
 
 .flex-container {
@@ -15,16 +32,26 @@ html {
     align-items: center;
     justify-content: space-around; 
 }
+
 .main-nav__right {
     width: 20rem;
 }
+
 .main-nav__left{
     width: 25rem;
+}
+
+.main-nav__left_search {
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
 }
 
 .write {
     width: 5rem;
 }
+
 .write > * {
     display: inline-block;
 }
@@ -32,15 +59,126 @@ html {
 .main-section__left {
     display: flex;
     border-right: 1px solid #ccc;
-    min-width:16rem;
+    min-width: 16rem;
+    padding: 0 2rem;
 }
-.main-section__middle{
+
+.main-section__middle {
     display: flex;
     min-width: 50rem;
+    padding: 0 2rem;
 }
+
+.main-section__right {
+    padding: 0 2rem;
+}
+
 .content-image img {
-    width:10rem
+    width: 10rem;
 }
+
 .content-card {
     display: flex;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.content-status {
+    display: flex;
+    gap: 1rem;
+    color: gray;
+    font-size: 0.9em;
+    margin-top: 1rem;
+}
+
+.right-recs li {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 0.2rem;
+    font-size: 0.9em;
+}
+
+.account-button {
+    padding: 0.4rem 0.8rem;
+    background-color: #1a8917;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.right-piece {
+    margin-bottom: 1.5rem;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.account-self {
+    display: flex;
+    gap: 0.5rem;
+}
+.content-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+.content-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+}
+.context-part1 {
+    flex: 1;
+    padding-right: 1rem;
+}
+.right-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.piece-title {
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+.piece-subtitle {
+    font-size: 0.8rem;
+    color: #666;
+}
+.piece-date {
+    font-size: 0.8rem;
+    color: #888;
+}
+.main-section__bar > ul {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 0;
+}
+.main-section__bar > ul li {
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.main-section__bar > ul li:first-child {
+    border-bottom: 1px solid black;
+}
+.main-section__left > ul li {
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+.main-section__left > ul li:hover {
+    color: #000;
+    font-weight: bold;
+}
+.main-section__left > ul {
+    color: #555;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-bottom: 2rem;
 }
